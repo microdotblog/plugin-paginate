@@ -1,5 +1,12 @@
 {
 	"version": "1.0",
 	"title": "Paginate settings",
-	"description": "Changes the number of posts on your blog home page."
+	"description": "Changes the number of posts on your blog home page.",
+	"fields": [
+		{
+			"field": "paginate",
+			"label": "Number of posts per page",
+			"type": "integer"
+		}
+	]
 }
