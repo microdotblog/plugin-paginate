@@ -1,5 +1,5 @@
 {
-	"version": "1.0",
+	"version": "1.0.1",
 	"title": "Paginate settings",
 	"description": "Changes the number of posts on your blog home page.",
 	"fields": [
@@ -7,6 +7,21 @@
 			"field": "paginate",
 			"label": "Number of posts per page",
 			"type": "integer"
+		},
+		{
+			"field": "params.paginate_home",
+			"label": "Enable pagination for home page",
+			"type": "boolean"
+		},
+		{
+			"field": "params.paginate_categories",
+			"label": "Enable pagination for categories",
+			"type": "boolean"
+		},
+		{
+			"field": "params.paginate_replies",
+			"label": "Enable pagination for replies",
+			"type": "boolean"
 		}
 	]
 }
